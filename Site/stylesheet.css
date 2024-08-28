@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    background-color: aqua;  
+    box-shadow: 1px 1px 4px;
+    padding: 0 10%;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vh;
+}
+
+.navegador a{
+    text-decoration: none;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.navegador a:hover{
+    box-shadow: inset;
+}
+
+.logo{
+    justify-self: center;
+}
