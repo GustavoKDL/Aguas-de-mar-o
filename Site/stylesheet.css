@@ -3,6 +3,15 @@ body{
     padding: 0;
 }
 
+main{
+    display: flex;
+    padding: 10% 20%;
+    gap: 5%;
+    background-image: url(Imagem-Site/Vela-1.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
